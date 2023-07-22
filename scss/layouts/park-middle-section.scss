@@ -1,0 +1,152 @@
+.park-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width: 320px) and (max-width: 767px) {
+        display: flex !important;
+    }
+    a.explore-btn {
+        background-color: #ffffff;
+        border: 1px solid #FF5E3A;
+        color: #FF5E3A;
+        height: 37px;
+        font-size: 12px;
+        @media (min-width: 320px) and (max-width: 767px) {
+            height: 24px;
+            background-color: #F9E5E0;
+            border: 0px;
+            font-size: 10px;
+        }
+    }
+}
+.park-slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-bottom: 30px;
+    @media (min-width: 320px) and (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+    @media (min-width: 1024px) and (max-width: 1279px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    .single-item {
+        width: 100%;
+        .slider-img {
+            position: relative;
+            img {
+                width: 100%;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    object-fit: cover;
+                }
+            }
+            a.public-btn {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 82px;
+                height: 26px;
+                border-radius: 4px;
+                background-color: #F9E5E0;
+                font-size: 9px;
+                color: #FF5E3A;
+                font-weight: 600;
+                right: 14px;
+                bottom: -13px;
+            }
+        }
+        .park-content {
+            padding: 21px 20px 13px 14px;
+            h3 {
+                font-size: 15px;
+                color: #141821;
+                font-weight: 500;
+                margin-bottom: 8px;
+            }
+            .location-section {
+                display: flex;
+                align-items: center;
+                grid-gap: 15px;
+                margin-bottom: 9px;
+                span {
+                    font-size: 9px;
+                    color: #707070;
+                    display: flex;
+                    align-items: center;
+                    i {
+                        margin-right: 5px;
+                        color: #000000;
+                        font-size: 13px;
+                    }
+                }
+                p {
+                    font-size: 9px;
+                    color: #707070;
+                    font-weight: 500;
+                }
+            }
+            .d-flex {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .like-section {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 19px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        flex-direction: column-reverse;
+                        align-items: start;
+                        grid-gap: 20px;
+                        margin-bottom: 0px;
+                    }
+                    .left-section {
+                        display: flex;
+                        align-items: center;
+                        grid-gap: 6px;
+                        .like-img {
+                            img {
+                                vertical-align: bottom;
+                                width: 26px;
+                                height: 26px;
+                                margin-left: -13px;
+                                &:first-child {
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                        p {
+                            font-size: 7px;
+                            color: #656565;
+                        }
+                    }
+                    .right-section {
+                        display: flex;
+                        align-items: center;
+                        grid-gap: 2px;
+                        i {
+                            font-size: 7px;
+                            color: #FFCC00;
+                        }
+                        p {
+                            font-size: 5px;
+                            color: #707070;
+                        }
+                    }
+                }
+                a.park-btn {
+                    height: 38px;
+                    border-radius: 23px;
+                    border: 1px solid #ECEEF2;
+                    font-size: 11px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        align-self: end;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

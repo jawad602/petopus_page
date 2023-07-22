@@ -1,0 +1,87 @@
+.footer-content {
+    @media (min-width:320px) and (max-width:767px) {
+        display: none;
+    }
+}
+.form-company {
+    padding: 20px;
+    margin-bottom: 30px;
+    .grid-1fr {
+        grid-template-columns: 1fr !important;
+    }
+    .mobile-mr-bottom {
+        @media (min-width:320px) and (max-width:767px) {
+            margin-bottom: 60px !important;
+        }
+    }
+    .form-single-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin-bottom: 20px;
+        @media (min-width:320px) and (max-width:767px) {
+            grid-template-columns: 1fr !important;
+        }
+        @media (min-width:768px) and (max-width:1023px) {
+
+        }
+        .input-single-field {
+            h4 {
+                font-size: 16px;
+                color: #707070;
+                font-weight: 500;
+                margin-bottom: 17px;
+            }
+            span.input-item {
+                height: 49px;
+                display: block;
+                position: relative;
+                input {
+                    height: 100%;
+                    border: 1px solid #CDCDCD;
+                    border-radius: 25px;
+                    padding: 0 20px;
+                    width: 100%;
+                    color: #CDCDCD;
+                    &::placeholder {
+                        color: #CDCDCD;
+                    }
+                }
+            }
+            span.input-item {
+                select {
+                    height: 100%;
+                    border: 1px solid #CDCDCD;
+                    border-radius: 25px;
+                    padding: 0 20px;
+                    width: 100%;
+                    -webkit-appearance: none;
+                    outline: none;
+                    color: #CDCDCD;
+                }
+                span.icon-input {
+                    position: absolute;
+                    right: 20px;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    i {
+                        font-size: 20px;
+                        color: #B3AEAE;
+                    }
+                }
+            }
+        }
+    }
+    a.settings-btn {
+        height: 37px;
+        font-size: 10px;
+        width: 134px;
+        margin: 0 auto;
+        margin-right: 0px;
+    }
+}
+.pro-setting-title {
+    @media (min-width:320px) and (max-width:767px) {
+        height: 50px !important;
+    }
+}

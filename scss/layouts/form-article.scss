@@ -1,0 +1,13 @@
+.form-company {
+    .article-form-btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        grid-gap: 10px;
+        a.article-btn {
+            background-color: #ffffff;
+            color: #FF5E3A;
+            border: 1px solid #FF5E3A;
+        }
+    }
+}

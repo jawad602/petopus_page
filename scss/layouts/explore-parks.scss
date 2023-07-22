@@ -1,0 +1,28 @@
+.explore-park-card {
+    height: 145px !important;
+    .family-dog-pic {
+        .card-img-range {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            background-color: #f9e5e0;
+            position: relative;
+            bottom: 24px;
+            border-radius: 0px 0px 0px 8px;
+            img {
+                padding: 0 10px;
+            }
+            p {
+                bottom: 0 !important;
+                font-size: 8px !important;
+            }
+        }
+        .active-park-card {
+            background-color: #FF5E3A;
+            p {
+                background-color: #FF5E3A !important;
+                color: #f9e5e0 !important;
+            }
+        }
+    }
+}

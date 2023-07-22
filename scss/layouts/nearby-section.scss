@@ -1,0 +1,252 @@
+.nearby-content {
+    .single-item {
+        height: 163px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        @media (min-width: 320px) and (max-width: 767px) {
+            flex-direction: column;
+            height: 200px;
+            padding: 0 14px;
+            justify-content: initial;
+            grid-gap: 17px;
+            justify-content: center;
+        }
+        .left-section {
+            display: flex;
+            align-items: center;
+            grid-gap: 22px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                width: 100%;
+                grid-gap: 12px;
+            }
+            img {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            .animal-data {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    width: 100%;
+                }
+                h3 {
+                    font-size: 20px;
+                    color: #707070;
+                    margin-bottom: 8px;
+                    font-weight: 400;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        margin-bottom: 6px;
+                        font-size: 14px;
+                    }
+                }
+                p {
+                    font-size: 12px;
+                    color: #0A0114;
+                    margin-bottom: 6px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        font-size: 10px;
+                    }
+                }
+                span {
+                    font-size: 12px;
+                    color: #0A0114;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            @media (min-width: 320px) and (max-width: 767px) {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                align-items: center;
+                width: 100%;
+            }
+            .breed-btn {
+                display: flex;
+                grid-gap: 10px;
+                margin-bottom: 20px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    margin-bottom: 10px;
+                }
+                a.nearby-btn {
+                    min-width: 49px;
+                    height: 29px;
+                    background-color: #F9EDEB;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    color: #FF5E3A;
+                    padding: 0px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        
+                    }
+                }
+            }
+            p {
+                font-size: 13px;
+                color: #0A0114;
+                margin-bottom: 20px;
+            }
+            .right-btn {
+                display: flex;
+                grid-gap: 14px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    grid-column: 1 / span 2;
+                    justify-content: space-between;
+                }
+                a.profile-btn {
+                    font-size: 12px;
+                    width: 132px;
+                    height: 37px;
+                    color: #FF5E3A;
+                    border: 1px solid #FF5E3A;
+                    background-color: #ffffff;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        height: 30px;
+                    }
+                }
+                a.follow-btn {
+                    font-size: 12px;
+                    width: 124px;
+                    height: 37px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .item-1 {
+        .left-section {
+            .animal-data {
+                .text {
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 25px;
+                    margin-bottom: 10px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        grid-gap: 12px;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #93989E;
+                        margin-bottom: 0px;
+                        @media (min-width: 320px) and (max-width: 767px) {
+                            font-size: 8px;
+                        }
+                        @media (min-width: 768px) and (max-width: 1023px) {
+                            font-size: 13px;
+                        }
+                    }
+                    span {
+                        display: flex;
+                        grid-gap: 4px;
+                        align-items: center;
+                        color: #93989E;
+                    }
+                }
+                span.star-icon {
+                    display: flex;
+                    grid-gap: 2px;
+                    margin-bottom: 11px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        justify-content: end;
+                    }
+                    i {
+                        font-size: 10px;
+                        color: #FFCC00;
+                    }
+                    p {
+                        font-size: 8px;
+                        color: #707070;
+                        margin-bottom: 0px;
+                    }
+                }
+                .post-content {
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 29px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        grid-gap: 14px;
+                    }
+                    .post-single-item {
+                        border-right: 1px solid #D6DCE0;
+                        text-align: center;
+                        padding-right: 29px;
+                        @media (min-width: 320px) and (max-width: 767px) {
+                            padding-right: 14px;
+                        }
+                        &:last-child {
+                            border-right: 0px;
+                            padding-right: 0px;
+                        }
+                        h4 {
+                            font-size: 12px;
+                            color: #464748;
+                            margin-bottom: 2px;
+                            @media (min-width: 320px) and (max-width: 767px) {
+                                font-size: 12px;
+                            }
+                        }
+                        p {
+                            font-size: 12px;
+                            color: #7F8184;
+                            margin-bottom: 0px;
+                            @media (min-width: 320px) and (max-width: 767px) {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right-section {
+            .breed-btn {
+                a.re-btn {
+                    height: 29px;
+                    background-color: #F9EDEB;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    color: #FF5E3A;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        font-size: 10px;
+                        height: 27px;
+                    }
+                }
+            }
+        }
+    }
+    .item-2 {
+        .left-section {
+            .animal-data {
+                .text {
+                    margin-bottom: 27px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        margin-bottom: 0px;
+                    }
+                }
+                a.request-btn {
+                    font-size: 12px;
+                    color: #FF5E3A;
+                    width: 132px;
+                    height: 37px;
+                    border: 1px solid #FF5E3A;
+                    background-color: initial;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        border: 0px;
+                        text-decoration: underline;
+                        padding-right: 0px;
+                        justify-content: end;
+                    }
+                }
+            }
+        }
+    }
+}

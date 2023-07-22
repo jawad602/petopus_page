@@ -1,0 +1,32 @@
+.explore-articles {
+    .article-single-item {
+        .content {
+            .heading {
+                span.star-icon {
+                    display: flex;
+                    align-items: center;
+                    i {
+                        font-size: 10px;
+                        color: #FFCC00;
+                    }
+                    p {
+                        font-size: 5px;
+                        color: #707070;
+                    }
+                }
+            }
+            .name-date {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                p {
+                    margin-bottom: 0px;
+                }
+                .article-icon {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}

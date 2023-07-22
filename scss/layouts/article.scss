@@ -1,0 +1,83 @@
+.article-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-bottom: 30px;
+    @media (min-width: 320px) and (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+    @media (min-width: 1024px) and (max-width: 1279px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    .article-single-item {
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 10px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+        .content {
+            padding: 11px 17px 15px 14px;
+            .heading {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 7px;
+                h3 {
+                    font-size: 15px;
+                    color: #141821;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 9px;
+                    color: #707070;
+                    margin-bottom: 0px;
+                    font-weight: normal;
+                }
+            }
+            p {
+                font-size: 9px;
+                color: #707070;
+                font-weight: bold;
+                margin-bottom: 12px;
+                span {
+                    font-weight: normal;
+                }
+            }
+            p.para {
+                font-weight: 10px;
+                color: #707070;
+                margin-bottom: 10px;
+            }
+            .article-icon {
+                display: flex;
+                justify-content: end;
+                grid-gap: 12px;
+                margin-bottom: 21px;
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    background-color: #FFEEEB;
+                    img {
+                        width: 13px;
+                        height: 13px;
+                        @media (min-width: 320px) and (max-width: 767px) {
+                            width: initial;
+                        }
+                    }
+                }
+            }
+            a.subscribe-btn {
+                width: 100%;
+                height: 38px;
+                margin: 0 auto;
+                font-size: 11px;
+            }
+        }
+    }
+}

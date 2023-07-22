@@ -1,0 +1,304 @@
+.appointment-display-dr-profile {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    grid-gap: 20px;
+    .dr-data-img {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 320px) and (max-width: 767px) {
+            display: none;
+        }
+        img {
+            width: 147px;
+            height: 165px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+        span.star-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 6px;
+            i {
+                font-size: 12px;
+                color: #FFCC00;
+            }
+            p {
+                font-size: 10px;
+                color: #707070;
+            }
+        }
+        h6 {
+            font-size: 19px;
+            color: #0A0101;
+            font-weight: bold;
+            margin-bottom: 2px;
+            text-align: center;
+        }
+        p {
+            font-size: 8px;
+            color: #707070;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    .dr-data {
+        @media (min-width: 320px) and (max-width: 767px) {
+            display: none;
+        }
+        h4 {
+            font-size: 18px;
+            color: #1D0202;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 14px;
+            color: #1D0202;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        h5 {
+            font-size: 16px;
+            color: #1D0202;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        .user-follower-section {
+            display: flex;
+            .single-item {
+                text-align: center;
+                border-right: 1px solid #D6DCE0;
+                padding: 0 25px;
+                p {
+                    font-size: 12px;
+                    color: #464748;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                }
+                span {
+                    font-size: 12px;
+                    color: #7F8184;
+                }
+                &:first-child {
+                    padding-left: 0px;
+                }
+                &:last-child {
+                    padding-right: 0px;
+                    border-right: 0px;
+                }
+            }
+        }
+    }
+    .dr-location {
+        width: 100%;
+        h5 {
+            font-size: 16px;
+            color: #1D0202;
+            font-weight: bold;
+            margin-bottom: 10px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                font-size: 14px;
+            }
+        }
+        span.map-icon {
+            display: flex;
+            align-items: center;
+            grid-gap: 6px;
+            margin-bottom: 20px;
+            i {
+                font-size: 15px;
+                color: #0A0101;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 13px;
+                }
+            }
+            p {
+                font-size: 14px;
+                color: #1D0202;
+                margin-bottom: 0px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 10px;
+                }
+            }
+        }
+        p {
+            font-size: 14px;
+            color: #1D0202;
+            margin-bottom: 5px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                font-size: 10px;
+            }
+            span {
+                font-size: 16px;
+                font-weight: bold;
+                margin-right: 10px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 10px;
+                }
+            }
+        }
+        a.an-appointment-btn {
+            font-size: 9px;
+            color: #ffffff;
+            font-weight: 500;
+            background-color: #656565;
+            height: 28px;
+            width: 145px;
+            margin-left: auto;
+            margin-bottom: 49px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                margin-bottom: 20px;
+            }
+        }
+        .profile-follow-btn {
+            display: flex;
+            justify-content: end;
+            grid-gap: 8px;
+            a {
+                width: 120px;
+                height: 28px;
+                font-size: 9px;
+            }
+            a.profile-btn {
+                background-color: #ffffff;
+                color: #FF5E3A;
+                border: 1px solid #FF5E3A;
+            }
+        }
+    }
+}
+
+.services-offered {
+    padding: 20px;
+    margin-bottom: 20px;
+    h3 {
+        font-size: 18px;
+        color: #1D0202;
+        font-weight: bold;
+        margin-bottom: 13px;
+        @media (min-width: 320px) and (max-width: 767px) {
+            font-size: 14px;
+        }
+    }
+    p {
+        font-size: 15px;
+        color: #707070;
+        margin-bottom: 20px;
+        @media (min-width: 320px) and (max-width: 767px) {
+            font-size: 12px;
+        }
+    }
+    .offered-share-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 320px) and (max-width: 767px) {
+            flex-direction: column-reverse;
+        }
+        .like-content {
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            i {
+                font-size: 20px;
+                color: #FF5E3A;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 14px;
+                }
+            }
+            p {
+                font-size: 15px;
+                color: #494720;
+                margin-bottom: 0px;
+                font-weight: 500;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 9px;
+                }
+            }
+        }
+        .view-content {
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                margin-left: auto;
+            }
+            .view-img {
+                img {
+                    width: 25px;
+                    height: 25px;
+                    margin-left: -15px;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        width: 18px;
+                        height: 18px;
+                    }
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                }
+            }
+            p {
+                font-size: 15px;
+                color: #494720;
+                margin-bottom: 0px;
+                font-weight: 500;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 9px;
+                }
+            }
+        }
+        a.share-btn {
+            grid-gap: 10px;
+            height: 28px;
+            font-size: 9px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                min-width: initial;
+            }
+            img {
+                width: 11px;
+                height: 13px;
+            }
+        }
+    }
+}
+
+.appointment-comments-section {
+    .leave-comment-section {
+        padding-top: 10px;
+        input.single-input {
+            width: 100%;
+            height: 56px;
+            border: 1px solid #F9EDEB;
+            padding: 0 20px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #000000;
+            &::placeholder {
+                font-size: 14px;
+                color: #000000;
+            }
+        }
+        textarea.textarea-section {
+            width: 100%;
+            height: 155px;
+            border: 1px solid #F9EDEB;
+            margin-bottom: 20px;
+            padding: 20px;
+            font-size: 14px;
+            color: #000000;
+            &::placeholder {
+                font-size: 14px;
+                color: #000000;
+            }
+        }
+        a.write-comment-btn {
+            width: 100%;
+            height: 56px;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+    }
+}

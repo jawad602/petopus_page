@@ -1,0 +1,77 @@
+.group-member-request {
+    h3 {
+        font-size: 21px;
+        color: #494720;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .single-item {
+        .left-section {
+            @media (min-width: 320px) and (max-width: 767px) {
+                grid-gap: 20px;
+            }
+            img {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    width: 101px;
+                    height: 101px;
+                }
+            }
+            .animal-data {
+                h2 {
+                    font-size: 20px;
+                    color: #131313;
+                    font-weight: bold;
+                }
+            }
+        }
+        .request-right-section {
+            display: flex;
+            grid-gap: 30px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                width: 100%;
+            }
+            a.decline-link {
+                font-size: 13px;
+                color: #B2B2B2;
+                font-weight: 400;
+                text-decoration: underline;
+                margin-top: auto;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    display: none;
+                }
+            }
+            a.accept-1-btn {
+                width: 122px;
+                height: 37px;
+                font-size: 10px;
+                font-weight: 400;
+                color: #FF5E3A;
+                background-color: #ffffff;
+                border: 1px solid #FF5E3A;
+                margin-top: auto;
+            }
+            .profile-accept-btn {
+                display: flex;
+                flex-direction: column;
+                grid-gap: 27px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    flex-direction: row;
+                    grid-gap: 0px;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+                a {
+                    width: 122px;
+                    height: 37px;
+                    font-size: 10px;
+                    font-weight: 400;
+                }
+                a.accept-btn {
+                    color: #FF5E3A;
+                    background-color: #ffffff;
+                    border: 1px solid #FF5E3A;
+                }
+            }
+        }
+    }
+}

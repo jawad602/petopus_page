@@ -1,0 +1,142 @@
+.middle-section {
+    .middle-content {
+        .middle {
+            .middle-article-banner {
+                height: 365px;
+                padding: 20px;
+                margin-bottom: 20px;
+                img {
+                    width: 100%;
+                }
+                .article-banner-content {
+                    display: grid;
+                    grid-template-columns: auto 1fr auto;
+                    grid-gap: 25px;
+                   
+                    padding: 15px 15px;
+                    img {
+                        bottom: 40px;
+                    }
+                    .middle-banner-title {
+                        h2 {
+                            font-weight: 500;
+                            color: #2F3C40;
+                            font-size: 22px;
+                        }
+                        p {
+                            color: #93989E;
+                            font-size: 14px;
+                        }
+                    }
+                    .middle-banner-content {
+                        h3 {
+                            font-weight: 500;
+                            color: #2F3C40;
+                            font-size: 22px;
+                        }
+                        span {
+                            font-size: 14px;
+                        }
+                        .banner-date-time {
+                            display: flex;
+                            grid-gap: 36px;
+                            margin-bottom: 10px;
+                            .date-time {
+                                display: flex;
+                                grid-gap: 15px;
+                                span {
+                                    font-weight: 600;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    color: #93989E;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .card-middle-article {
+                margin-bottom: 20px;
+                padding: 36px 25px 25px 25px;
+                p {
+                    text-align: left;
+                    color: #707070; 
+                    line-height: 20px;
+                    
+                }
+                .grid-article-content {
+                    display: grid;
+                    grid-template-columns: auto 1fr;
+                    grid-gap: 15px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                }
+                .article-middle-content {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .mobile-user-status {
+        display: none !important;
+    }
+    .article-mobile-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        h4 {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .article-banner-date {
+            display: flex;
+            grid-gap: 15px;
+            p {
+                font-size: 10px;
+                color: #707070;
+                span {
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+        }
+    }
+    .mobile-middle-padding {
+        padding-top: 0 !important;
+    }
+    .mobile-article-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mobile-user-status {
+        display: none !important;
+    }
+    .article-mobile-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        h4 {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .article-banner-date {
+            display: flex;
+            grid-gap: 15px;
+            p {
+                font-size: 10px;
+                color: #707070;
+                span {
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+        }
+    }
+    .mobile-middle-padding {
+        padding-top: 0 !important;
+    }
+}

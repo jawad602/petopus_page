@@ -1,0 +1,33 @@
+.group-about-description {
+    p {
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 14px;
+        color: #0A0101;
+        font-weight: 500;
+        margin-bottom: 11px;
+    }
+}
+
+.group-about-member {
+    .single-item {
+        .left-section {
+            .animal-data {
+                h2 {
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 15px;
+                    color: #131313;
+                    font-weight: bold;
+                }
+            }
+        }
+        a.btn-view {
+            width: 122px;
+            height: 37px;
+            font-size: 10px;
+        }
+    }
+}

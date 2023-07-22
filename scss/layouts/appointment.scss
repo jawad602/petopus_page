@@ -1,0 +1,153 @@
+.appointment {
+    margin-bottom: 30px;
+    h2 {
+        font-size: 20px;
+        color: #494720;
+        font-weight: 400;
+        margin-bottom: 32px;
+    }
+    .appointment-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        @media (min-width: 1024px) and (max-width: 1279px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        .appointment-single-item {
+            width: 100%;
+            img.big-img {
+                width: 100%;
+            }
+            .content-img {
+                a.bodo-btn {
+                    font-size: 9px;
+                    color: #ffffff;
+                    border-radius: 4px;
+                    border: 0px;
+                    height: 26px;
+                    right: 12px;
+                    bottom: -13px;
+                }
+            }
+            .item-content {
+                padding: 11px 15px;
+                .content-heading {
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 21px;
+                    margin-bottom: 7px;
+                    h3 {
+                        font-size: 15px;
+                        color: #141821;
+                        font-weight: 500;
+                    }
+                    span {
+                        font-size: 10px;
+                        color: #707070;
+                    }
+                }
+                .content-location {
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 10px;
+                    margin-bottom: 14px;
+                    p {
+                        font-size: 9px;
+                        color: #707070;
+                        font-weight: 400;
+                    }
+                    span.text {
+                        font-size: 9px;
+                        color: #707070;
+                        font-weight: 500;
+                    }
+                }
+                p.para {
+                    font-size: 10px;
+                    color: #707070;
+                    margin-bottom: 10px;
+                }
+                .content-distance {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                    h3 {
+                        font-size: 12px;
+                        color: #0A0101;
+                        font-weight: 500;
+                    }
+                    p {
+                        font-size: 9px;
+                        color: #656565;
+                    }
+                }
+                .content-date {
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 17px;
+                    margin-bottom: 13px;
+                    span.date-icons {
+                        display: flex;
+                        align-items: center;
+                        grid-gap: 5px;
+                        p {
+                            font-size: 9px;
+                            color: #707070;
+                        }
+                    }
+                }
+                .like-section {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 12px;
+                    .left-section {
+                        display: flex;
+                        align-items: center;
+                        grid-gap: 6px;
+                        .like-img {
+                            img {
+                                vertical-align: bottom;
+                                width: 26px;
+                                height: 26px;
+                                margin-left: -13px;
+                                &:first-child {
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                        p {
+                            font-size: 7px;
+                            color: #656565;
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .right-section {
+                        display: flex;
+                        align-items: center;
+                        grid-gap: 2px;
+                        i {
+                            font-size: 7px;
+                            color: #FFCC00;
+                        }
+                        p {
+                            font-size: 5px;
+                            color: #707070;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                a.available-btn {
+                    height: 38px;
+                    font-size: 11px;
+                }
+                a.booked-btn {
+                    height: 38px;
+                    font-size: 11px;
+                    background-color: #08C742;
+                }
+            }
+        }
+    }
+}

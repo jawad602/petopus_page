@@ -1,0 +1,24 @@
+.announce-edit-icon-mob {
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .announce-card-mobile {
+        position: relative;
+        .announce-edit-icon-mob {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9e5e0;
+            border-radius: 50%;
+        }
+    }
+    .mobile-pet-tag {
+        width: 52px !important;
+        font-size: 9px !important; 
+    }
+}

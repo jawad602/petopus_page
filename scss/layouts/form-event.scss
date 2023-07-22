@@ -1,0 +1,15 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .mobile-grid-form-event {
+        grid-template-columns: 1fr !important;
+    }
+    .form-single-item {
+        .mobile-card-height {
+            span {
+                height: auto !important;
+                input {
+                    height: 45px !important;
+                }
+            }
+        }
+    }
+}

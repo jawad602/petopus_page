@@ -1,0 +1,38 @@
+.group-member {
+    .single-item {
+        .request-right-section {
+            .profile-accept-btn-1 {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    align-items: center !important;
+                    flex-direction: initial !important;
+                }
+            }
+            .profile-accept-btn {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    align-items: center;
+                    flex-direction: column;
+                    grid-gap: 10px;
+                }
+                a.view-profile {
+                    margin-left: auto;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        margin: 0px;
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    color: #131313;
+                    font-weight: 400;
+                    @media (min-width: 320px) and (max-width: 767px) {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .group-member-h {
+        @media (min-width: 320px) and (max-width: 767px) {
+            height: 250px;
+        }
+    }
+}

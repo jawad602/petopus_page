@@ -1,0 +1,18 @@
+.group-coming-activity {
+    .activity-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        h3 {
+            font-size: 21px;
+            color: #494720;
+            font-weight: 400;
+        }
+        p {
+            font-size: 18px;
+            color: #707070;
+            text-decoration: underline;
+        }
+    }
+}

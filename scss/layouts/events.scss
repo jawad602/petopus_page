@@ -1,0 +1,34 @@
+.event-content {
+    .announce-single-item {
+        .announce-single-content {
+            p.p-event {
+                font-size: 11px;
+                color: #707070;
+                font-weight: 500;
+                margin-bottom: 8px;
+            }
+            .event-time {
+                display: flex;
+                grid-gap: 8px;
+                margin-bottom: 16px;
+                img.alarm {
+                    width: 12px;
+                    height: 12px;
+                }
+                .time-content {
+                    p {
+                        font-size: 9px;
+                        color: #707070;
+                        font-weight: 400;
+                        margin-bottom: 2px;
+                    }
+                    span {
+                        font-size: 9px;
+                        color: #656565;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

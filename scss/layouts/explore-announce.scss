@@ -1,0 +1,47 @@
+.explore-cards {
+    .partner-card {
+        .explore-event-cards {
+            .explore-announce-title {
+                h4 {
+                    font-weight: 500;
+                }
+            }
+            .explore-announce-location {
+                p {
+                    font-size: 9px;
+                }
+            }
+            .explore-pet-rent {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                .pets-available {
+                    display: flex;
+                    grid-gap: 4px;
+                    span {
+                        font-weight: 600;
+                    }
+                }
+                // .rent-button {
+                //     button {
+                //         height: 26px;
+                //         padding: 0 15px;
+                //         font-size: 7px;
+                //         background-color: #F9E5E0;
+                //         color: #FF5E3A;
+                //         border-radius: 14px;
+                //         align-items: center;
+                //         display: flex;
+                //         cursor: pointer;
+                //         span {
+                //             font-size: 12px !important;
+                //             padding: 0 6px;
+                //             font-weight: 700;
+                //         }
+                //     }
+                // }
+            }
+        }
+    }
+}

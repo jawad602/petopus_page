@@ -1,0 +1,178 @@
+.best-pet-food-section {
+    @media (min-width: 320px) and (max-width: 767px) {
+        flex-direction: column;
+        align-items: start;
+    }
+    .pet-food {
+        margin-bottom: 20px;
+        img {
+            width: 68px;
+            height: 68px;
+        }
+        .user-data {
+            p {
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .event-user-btn {
+        text-align: center;
+        @media (min-width: 320px) and (max-width: 767px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        p.p-ticket {
+            font-size: 12px;
+            color: #FF5E3A;
+            border-radius: 19px;
+            background-color: #F9E5E0;
+            width: 173px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                font-size: 11px;
+                margin-bottom: 0px;
+                width: 155px;
+            }
+            span.bold {
+                font-size: 18px;
+                font-weight: bold;
+                padding: 0 10px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 15px;
+                }
+            }
+        }
+        p.p-event {
+            font-size: 16px;
+            color: #1D0202;
+            @media (min-width: 320px) and (max-width: 767px) {
+                font-size: 9px;
+            }
+        }
+    }
+}
+
+.event-display-photo-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 162px 162px;
+    grid-gap: 12px;
+    .single-photo {
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+}
+
+.date-and-time-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    .title-content {
+        display: flex;
+        justify-content: space-between;
+        h3 {
+            font-size: 18px;
+            color: #1D0202;
+            font-weight: bold;
+            margin-bottom: 13px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                font-size: 14px;
+            }
+        }
+        a.view-profile-btn {
+            width: 171px;
+            height: 38px;
+            font-size: 11px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                font-size: 9px;
+                width: initial;
+                height: 28px;
+            }
+        }
+    }
+    .date-time-content {
+        display: grid;
+        grid-gap: 35px;
+        grid-template-columns: 1fr 1fr 1fr;
+        @media (min-width: 320px) and (max-width: 767px) {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 0px;
+            justify-content: space-between;
+        }
+        .single-item {
+            p {
+                font-size: 17px;
+                color: #707070;
+                font-weight: 500;
+                margin-bottom: 10px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 10px;
+                }
+            }
+            a.available-place-link {
+                font-size: 16px;
+                color: #8DA740;
+                font-weight: bold;
+                text-decoration: underline;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 10px;
+                }
+            }
+        }
+        .single-item.map-icon {
+            display: flex;
+            grid-gap: 8px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                grid-row: 2;
+            }
+            i {
+                font-size: 18px;
+                color: #1D0202;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    font-size: 12px;
+                }
+            }
+            p {
+                margin-bottom: 0px;
+            }
+        }
+        .single-item.text-align {
+            text-align: center;
+            @media (min-width: 320px) and (max-width: 767px) {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.event-display-detail {
+    .detail-section {
+        .detail-btn {
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            @media (min-width: 320px) and (max-width: 767px) {
+                justify-content: space-between;
+                width: 100%;
+            }
+            a {
+                width: 120px;
+                height: 28px;
+                font-size: 9px;
+            }
+        }
+    }
+}

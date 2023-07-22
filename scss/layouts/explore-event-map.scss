@@ -1,0 +1,19 @@
+.explore-cards {
+    .map-event-card {
+        height: 221px !important;
+        .explore-event-cards {
+            .explore-cards {
+                margin-bottom: 4px;
+            }
+            .breakfast-title, .map-card-description {
+                margin-bottom: 4px !important;
+            }
+            .availability-grid {
+                display: block !important;
+                p {
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+}

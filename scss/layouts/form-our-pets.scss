@@ -1,0 +1,21 @@
+.form-company {
+    .form-single-item.item-grid-3 {
+        grid-gap: 20px !important;
+    }
+    .form-single-item.grid-auto {
+        .input-single-field {
+            span.black-circle {
+                display: block;
+                width: 27px;
+                height: 26px;
+                border: 1px solid #707070;
+                border-radius: 50%;
+                margin-right: 18px;
+            }
+            p.text-pure {
+                font-size: 17px;
+                color: #707070;
+            }
+        }
+    }
+}
